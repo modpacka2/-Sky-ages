@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sky_ages:roots"
+    },
+    {
+      "item": "sky_ages:tinypebbles"
+    },
+    {
+      "item": "sky_ages:tinypebbles"
+    },
+    {
+      "item": "sky_ages:tinypebbles"
+    }
+  ],
+  "result": {
+    "item": "sky_ages:badstonetransplanter",
+    "count": 1
+  }
+}

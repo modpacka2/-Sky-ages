@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sky_ages:basicstonehammer"
+    },
+    {
+      "item": "sky_ages:basicstonesaw"
+    },
+    {
+      "item": "sky_ages:oakplank"
+    },
+    {
+      "item": "sky_ages:oakplank"
+    }
+  ],
+  "result": {
+    "item": "sky_ages:earthworm_box",
+    "count": 1
+  }
+}

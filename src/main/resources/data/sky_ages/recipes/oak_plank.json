@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sky_ages:basicstonesaw"
+    },
+    {
+      "item": "minecraft:oak_log"
+    }
+  ],
+  "result": {
+    "item": "sky_ages:oakplank",
+    "count": 2
+  }
+}

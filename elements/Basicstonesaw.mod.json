@@ -1,0 +1,35 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "basic_saw",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Basic stone saw",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Skyages"
+      }
+    ],
+    "efficiency": 2.0,
+    "attackSpeed": 1.2,
+    "enchantability": 1,
+    "damageVsEntity": 2.0,
+    "usageCount": 8,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

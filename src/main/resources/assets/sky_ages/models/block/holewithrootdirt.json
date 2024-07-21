@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "sky_ages:block/dirt",
+    "top": "sky_ages:block/hole_with_root_dirt",
+    "side": "sky_ages:block/dirt",
+    "overlay": "sky_ages:block/dirt",
+    "particle": "sky_ages:block/dirt"
+  },
+  "render_type": "cutout_mipped"
+}

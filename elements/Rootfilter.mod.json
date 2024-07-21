@@ -1,0 +1,35 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "root_filter",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Root filter",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Skyages"
+      }
+    ],
+    "efficiency": 0.0,
+    "attackSpeed": 1.6,
+    "enchantability": 0,
+    "damageVsEntity": 0.0,
+    "usageCount": 64,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

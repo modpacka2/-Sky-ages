@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "sky_ages:earthworm"
+    },
+    "title": {
+      "translate": "advancements.dirtfarm.title"
+    },
+    "description": {
+      "translate": "advancements.dirtfarm.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dirtfarm_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sky_ages:earthworm"
+            ],
+            "count": {
+              "min": 2,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "dirtfarm_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sky_ages:earthworm_box"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "sky_ages:plank"
+}

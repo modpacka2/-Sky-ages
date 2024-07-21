@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "sky_ages:tinypebbles"
+    },
+    "title": {
+      "translate": "advancements.dirtsacrifice.title"
+    },
+    "description": {
+      "translate": "advancements.dirtsacrifice.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dirtsacrifice_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sky_ages:tinypebbles"
+            ],
+            "count": {
+              "min": 9,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "sky_ages:anewadvanture"
+}

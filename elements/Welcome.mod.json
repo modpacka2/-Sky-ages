@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Welcome (Read this)",
+    "achievementDescription": "This mod is like a modpack, so I recommand using JEI, REI or EMI for better view of the recipes. You will have access to the overworld later in the mod when you will finished all the main quests.",
+    "achievementIcon": {
+      "value": "Blocks.DIRT#1"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "goal",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"146\" y=\"42\"><next><block type=\"tick\"></block></next></block></xml>"
+  }
+}

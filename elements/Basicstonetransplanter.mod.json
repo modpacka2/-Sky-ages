@@ -1,0 +1,38 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "medium_stone_transplanter",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Basic stone transplanter",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Skyages"
+      }
+    ],
+    "efficiency": 2.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 0,
+    "damageVsEntity": 2.0,
+    "usageCount": 8,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true,
+    "onRightClickedOnBlock": {
+      "name": "WhenRightClickTransplanter"
+    }
+  }
+}

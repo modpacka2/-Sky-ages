@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="sky_ages"
+version="0.0.0.2"
+displayName="Sky ages"
+displayURL="https://mcreator.net"
+credits="I use Mcreator to speed up the dev time since I'm alone."
+authors="Switchot"
+description="Pre-Alpha of a mods very big"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.sky_ages]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

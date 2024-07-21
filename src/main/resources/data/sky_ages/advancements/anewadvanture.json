@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "sky_ages:roots"
+    },
+    "title": {
+      "translate": "advancements.anewadvanture.title"
+    },
+    "description": {
+      "translate": "advancements.anewadvanture.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "anewadvanture_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sky_ages:roots"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "sky_ages:welcome"
+}

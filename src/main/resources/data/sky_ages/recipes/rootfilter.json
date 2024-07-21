@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "sky_ages:roots"
+    },
+    {
+      "item": "sky_ages:roots"
+    },
+    {
+      "item": "sky_ages:roots"
+    },
+    {
+      "item": "sky_ages:roots"
+    }
+  ],
+  "result": {
+    "item": "sky_ages:rootfilter",
+    "count": 1
+  }
+}

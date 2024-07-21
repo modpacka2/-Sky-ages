@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sky_ages:item/medium_stone_transplanter"
+  }
+}
