@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:saw"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "forge:hammer"
+    },
+    {
+      "tag": "forge:knife"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

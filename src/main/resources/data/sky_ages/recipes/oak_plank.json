@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "sky_ages:basicstonesaw"
+      "tag": "forge:saw"
     },
     {
       "item": "minecraft:oak_log"

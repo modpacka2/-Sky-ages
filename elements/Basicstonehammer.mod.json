@@ -8,13 +8,16 @@
     "texture": "basic_stone_hammer",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Basic stone saw",
+    "name": "Basic stone hammer",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
       {
         "value": "CUSTOM:Skyages"
+      },
+      {
+        "value": "TOOLS"
       }
     ],
     "efficiency": 2.0,

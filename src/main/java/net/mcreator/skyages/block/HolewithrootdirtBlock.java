@@ -2,6 +2,7 @@
 package net.mcreator.skyages.block;
 
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -15,7 +16,7 @@ import net.mcreator.skyages.procedures.OnDirtrootTickUpdateProcedure;
 
 public class HolewithrootdirtBlock extends Block {
 	public HolewithrootdirtBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).sound(SoundType.GRAVEL).strength(0.5f).randomTicks());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.COLOR_BROWN).sound(SoundType.GRAVEL).strength(0.5f).randomTicks());
 	}
 
 	@Override

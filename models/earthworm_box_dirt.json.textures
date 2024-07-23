@@ -2,9 +2,9 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "oak_planks",
+        "0": "minecraft:oak_planks",
         "1": "dirt",
-        "missing": "oak_planks"
+        "missing": "minecraft:oak_planks"
       },
       "name": "default"
     }

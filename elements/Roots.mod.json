@@ -12,6 +12,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Skyages"
+      },
+      {
+        "value": "MATERIALS"
       }
     ],
     "stackSize": 16,

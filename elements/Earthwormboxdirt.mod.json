@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "oak_planks",
+    "texture": "minecraft:oak_planks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -80,6 +80,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Skyages"
+      },
+      {
+        "value": "TRANSPORTATION"
       }
     ],
     "destroyTool": "axe",

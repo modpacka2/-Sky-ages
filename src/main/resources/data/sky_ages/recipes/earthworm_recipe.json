@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "sky_ages:rootfilter"
+      "tag": "forge:filter"
     },
     {
       "item": "minecraft:dirt"

@@ -63,6 +63,13 @@ public class OnWorldStartProcedure {
 					}
 				}
 			} else {
+				{
+					boolean _setval = true;
+					entity.getCapability(SkyAgesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.As_enter_skyblock = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 				if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 					ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sky_ages:skyblockzone"));
 					if (_player.level().dimension() == destinationType)

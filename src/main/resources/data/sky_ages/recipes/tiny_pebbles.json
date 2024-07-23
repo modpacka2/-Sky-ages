@@ -6,7 +6,7 @@
       "item": "minecraft:dirt"
     },
     {
-      "item": "sky_ages:rootfilter"
+      "tag": "forge:filter"
     }
   ],
   "result": {

@@ -21,9 +21,9 @@
       "registry_name": "skyblockzone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/world/dimension/SkyblockzoneDimension.java",
           "src/main/resources/data/sky_ages/dimension_type/skyblockzone.json",
-          "src/main/resources/data/sky_ages/dimension/skyblockzone.json"
+          "src/main/resources/data/sky_ages/dimension/skyblockzone.json",
+          "src/main/java/net/mcreator/skyages/world/dimension/SkyblockzoneDimension.java"
         ]
       },
       "path": "~/Spawn_area"
@@ -82,8 +82,8 @@
       "registry_name": "roots",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/item/RootsItem.java",
-          "src/main/resources/assets/sky_ages/models/item/roots.json"
+          "src/main/resources/assets/sky_ages/models/item/roots.json",
+          "src/main/java/net/mcreator/skyages/item/RootsItem.java"
         ]
       },
       "path": "~/Stage 1 - Roots/Items"
@@ -136,8 +136,8 @@
       "registry_name": "tinypebbles",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/item/TinypebblesItem.java",
-          "src/main/resources/assets/sky_ages/models/item/tinypebbles.json"
+          "src/main/resources/assets/sky_ages/models/item/tinypebbles.json",
+          "src/main/java/net/mcreator/skyages/item/TinypebblesItem.java"
         ]
       },
       "path": "~/Stage 1 - Roots/Items"
@@ -239,11 +239,11 @@
       "registry_name": "holedirt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sky_ages/models/block/holedirt.json",
-          "src/main/resources/assets/sky_ages/blockstates/holedirt.json",
           "src/main/java/net/mcreator/skyages/block/HoledirtBlock.java",
+          "src/main/resources/assets/sky_ages/blockstates/holedirt.json",
           "src/main/resources/assets/sky_ages/models/item/holedirt.json",
-          "src/main/resources/data/sky_ages/loot_tables/blocks/holedirt.json"
+          "src/main/resources/data/sky_ages/loot_tables/blocks/holedirt.json",
+          "src/main/resources/assets/sky_ages/models/block/holedirt.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Blocks"
@@ -291,11 +291,11 @@
       "registry_name": "holewithrootdirt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/block/HolewithrootdirtBlock.java",
+          "src/main/resources/assets/sky_ages/models/item/holewithrootdirt.json",
           "src/main/resources/assets/sky_ages/models/block/holewithrootdirt.json",
+          "src/main/java/net/mcreator/skyages/block/HolewithrootdirtBlock.java",
           "src/main/resources/data/sky_ages/loot_tables/blocks/holewithrootdirt.json",
-          "src/main/resources/assets/sky_ages/blockstates/holewithrootdirt.json",
-          "src/main/resources/assets/sky_ages/models/item/holewithrootdirt.json"
+          "src/main/resources/assets/sky_ages/blockstates/holewithrootdirt.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Blocks"
@@ -387,8 +387,8 @@
       "registry_name": "basicstonetransplanter",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/item/BasicstonetransplanterItem.java",
-          "src/main/resources/assets/sky_ages/models/item/basicstonetransplanter.json"
+          "src/main/resources/assets/sky_ages/models/item/basicstonetransplanter.json",
+          "src/main/java/net/mcreator/skyages/item/BasicstonetransplanterItem.java"
         ]
       },
       "path": "~/Stage 1 - Roots/Items"
@@ -441,8 +441,8 @@
       "registry_name": "oakplank",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sky_ages/models/item/oakplank.json",
-          "src/main/java/net/mcreator/skyages/item/OakplankItem.java"
+          "src/main/java/net/mcreator/skyages/item/OakplankItem.java",
+          "src/main/resources/assets/sky_ages/models/item/oakplank.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Items/planks"
@@ -526,11 +526,11 @@
       "registry_name": "earthworm_box",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sky_ages/models/block/earthworm_box.json",
-          "src/main/resources/data/sky_ages/loot_tables/blocks/earthworm_box.json",
+          "src/main/resources/assets/sky_ages/blockstates/earthworm_box.json",
           "src/main/java/net/mcreator/skyages/block/EarthwormBoxBlock.java",
           "src/main/resources/assets/sky_ages/models/item/earthworm_box.json",
-          "src/main/resources/assets/sky_ages/blockstates/earthworm_box.json"
+          "src/main/resources/assets/sky_ages/models/block/earthworm_box.json",
+          "src/main/resources/data/sky_ages/loot_tables/blocks/earthworm_box.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Blocks"
@@ -543,11 +543,11 @@
       "registry_name": "earthwormboxdirt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sky_ages/models/block/earthwormboxdirt.json",
-          "src/main/java/net/mcreator/skyages/block/EarthwormboxdirtBlock.java",
           "src/main/resources/assets/sky_ages/models/item/earthwormboxdirt.json",
+          "src/main/java/net/mcreator/skyages/block/entity/EarthwormboxdirtBlockEntity.java",
+          "src/main/java/net/mcreator/skyages/block/EarthwormboxdirtBlock.java",
           "src/main/resources/assets/sky_ages/blockstates/earthwormboxdirt.json",
-          "src/main/java/net/mcreator/skyages/block/entity/EarthwormboxdirtBlockEntity.java"
+          "src/main/resources/assets/sky_ages/models/block/earthwormboxdirt.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Blocks"
@@ -608,8 +608,8 @@
       "registry_name": "earthworm",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/item/EarthwormItem.java",
-          "src/main/resources/assets/sky_ages/models/item/earthworm.json"
+          "src/main/resources/assets/sky_ages/models/item/earthworm.json",
+          "src/main/java/net/mcreator/skyages/item/EarthwormItem.java"
         ]
       },
       "path": "~/Stage 1 - Roots/Items"
@@ -622,8 +622,8 @@
       "registry_name": "earthworm_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/world/inventory/EarthwormGUIMenu.java",
-          "src/main/java/net/mcreator/skyages/client/gui/EarthwormGUIScreen.java"
+          "src/main/java/net/mcreator/skyages/client/gui/EarthwormGUIScreen.java",
+          "src/main/java/net/mcreator/skyages/world/inventory/EarthwormGUIMenu.java"
         ]
       },
       "path": "~/Stage 1 - Roots/gui"
@@ -680,8 +680,8 @@
       "registry_name": "basicstonehammer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sky_ages/models/item/basicstonehammer.json",
-          "src/main/java/net/mcreator/skyages/item/BasicstonehammerItem.java"
+          "src/main/java/net/mcreator/skyages/item/BasicstonehammerItem.java",
+          "src/main/resources/assets/sky_ages/models/item/basicstonehammer.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Items"
@@ -720,11 +720,11 @@
       "registry_name": "crushedoaklogs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/block/CrushedoaklogsBlock.java",
-          "src/main/resources/data/sky_ages/loot_tables/blocks/crushedoaklogs.json",
           "src/main/resources/assets/sky_ages/models/block/crushedoaklogs.json",
+          "src/main/resources/assets/sky_ages/blockstates/crushedoaklogs.json",
+          "src/main/resources/data/sky_ages/loot_tables/blocks/crushedoaklogs.json",
           "src/main/resources/assets/sky_ages/models/item/crushedoaklogs.json",
-          "src/main/resources/assets/sky_ages/blockstates/crushedoaklogs.json"
+          "src/main/java/net/mcreator/skyages/block/CrushedoaklogsBlock.java"
         ]
       },
       "path": "~/Stage 1 - Roots/Blocks/crushed_log"
@@ -800,19 +800,6 @@
       "path": "~/Stage 1 - Roots/scripts"
     },
     {
-      "name": "Cancelplankcraft",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cancelplankcraft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/recipes/oak_planks.json"
-        ]
-      },
-      "path": "~/Stage 1 - Roots/crafts"
-    },
-    {
       "name": "Transplanter",
       "type": "achievement",
       "compiles": true,
@@ -852,17 +839,148 @@
       "path": "~/Stage 1 - Roots/Advancement"
     },
     {
-      "name": "Infinidirt",
-      "type": "achievement",
+      "name": "Basicstoneknife",
+      "type": "tool",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infinidirt",
+      "registry_name": "basicstoneknife",
       "metadata": {
         "files": [
-          "src/main/resources/data/sky_ages/advancements/infinidirt.json"
+          "src/main/resources/assets/sky_ages/models/item/basicstoneknife.json",
+          "src/main/java/net/mcreator/skyages/item/BasicstoneknifeItem.java"
         ]
       },
-      "path": "~/Stage 1 - Roots/Advancement"
+      "path": "~/Stage 1 - Roots/Items"
+    },
+    {
+      "name": "Basicstoneblade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicstoneblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/skyages/item/BasicstonebladeItem.java",
+          "src/main/resources/assets/sky_ages/models/item/basicstoneblade.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Items"
+    },
+    {
+      "name": "Basicstonebladere",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicstonebladere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sky_ages/recipes/basic_stone_blade.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/crafts"
+    },
+    {
+      "name": "Basicstoneknifere",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicstoneknifere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sky_ages/recipes/basic_stone_knife.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/crafts"
+    },
+    {
+      "name": "Oaknail",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oaknail",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sky_ages/models/item/oaknail.json",
+          "src/main/java/net/mcreator/skyages/item/OaknailItem.java"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Items/Wooden_nails"
+    },
+    {
+      "name": "Transitionsblocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transitionsblocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Oaknailskit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oaknailskit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/skyages/item/OaknailskitItem.java",
+          "src/main/resources/assets/sky_ages/models/item/oaknailskit.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Items/Wooden_nails/wooden_nail_kits"
+    },
+    {
+      "name": "Oaknailre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oaknailre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sky_ages/recipes/oak_nail.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/crafts"
+    },
+    {
+      "name": "Oaknailskitre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oaknailskitre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sky_ages/recipes/oak_nails_kit.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/crafts"
+    },
+    {
+      "name": "OakplanksRe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oakplanks_re",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/oak_planks.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/crafts"
+    },
+    {
+      "name": "Craftingtablere",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftingtablere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/crafting_table.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/crafts"
     }
   ],
   "variable_elements": [
@@ -899,23 +1017,49 @@
   ],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:Earthwormboxdirt",
-      "~CUSTOM:EarthwormBox"
+    "ITEMS:forge:transplanter": [
+      "CUSTOM:Basicstonetransplanter",
+      "CUSTOM:Badstonetransplanter"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Basicstoneknife",
       "~CUSTOM:Basicstonehammer",
       "~CUSTOM:Basicstonesaw",
       "~CUSTOM:Basicstonetransplanter",
       "~CUSTOM:Badstonetransplanter",
       "~CUSTOM:Rootfilter"
     ],
+    "ITEMS:forge:nails": [
+      "CUSTOM:Oaknail"
+    ],
+    "ITEMS:forge:nails_kit": [
+      "CUSTOM:Oaknailskit"
+    ],
+    "ITEMS:forge:knife": [
+      "CUSTOM:Basicstoneknife"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.AIR"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Earthwormboxdirt",
+      "~CUSTOM:EarthwormBox"
+    ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:Holewithrootdirt",
       "~CUSTOM:Holedirt"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.AIR"
+    "ITEMS:forge:filter": [
+      "CUSTOM:Rootfilter"
+    ],
+    "ITEMS:forge:planks_items": [
+      "CUSTOM:Oakplank"
+    ],
+    "ITEMS:forge:saw": [
+      "CUSTOM:Basicstonesaw"
+    ],
+    "ITEMS:forge:hammer": [
+      "CUSTOM:Basicstonehammer"
     ]
   },
   "tab_element_order": {},
@@ -935,29 +1079,32 @@
       "gui.sky_ages.earthworm_gui.label_earthworm_box": "Earthworm box",
       "advancements.welcome.title": "Welcome (Read this)",
       "item.skyage.tinypebbles": "Tiny pebbles",
-      "advancements.dirtfarm.descr": "Get two worm and a worm box",
+      "advancements.dirtfarm.descr": "Get a worm and a worm box",
       "advancements.dirtsacrifice.descr": "Sacrifice some dirt to obtain pebbles (ps : you need a filter)",
       "advancements.transplanter.descr": "Get a transplanter the new best tool to make tree grow. (ps : sapling didn\u0027t work in this mod)",
       "item.sky_ages.basicstonetransplanter": "Basic stone transplanter",
+      "item.sky_ages.oaknailskit": "Oak nails kit",
       "item.skyage.roots": "Root",
       "item.sky_ages.badstonetransplanter": "Bad stone transplanter",
       "advancements.transplanter.title": "Transplanter",
       "block.sky_ages.holewithrootdirt": "Hole with root dirt",
+      "item_group.sky_ages.transitionsblocks": "Transitions blocks",
       "block.skyage.holedirt": "Hole dirt",
       "item.skyage.rootfilter": "Root filter",
-      "advancements.infinidirt.title": "Infini-dirt",
+      "item.sky_ages.oaknail": "Oak nail",
       "item.sky_ages.rootfilter": "Root filter",
       "block.sky_ages.holedirt": "Hole dirt",
       "advancements.dirtfarm.title": "Dirt farm",
-      "advancements.welcome.descr": "This mod is like a modpack, so I recommand using JEI, REI or EMI for better view of the recipes. You will have access to the overworld later in the mod when you will finished all the main quests.",
+      "advancements.welcome.descr": "This mod is like a modpack, so I recommand using JEI, REI or EMI for better view of the recipes. You will have access to the overworld later in the mod when you will finished all the main quests. WARNING : The first stage is really (hard) and you can get stock and need to restart.",
       "biome.sky_ages.antibiome": "Antibiome",
       "advancements.dirtsacrifice.title": "Dirt sacrifice",
       "item.sky_ages.earthworm": "Earthworm",
       "item.skyage.badstonetransplanter": "Bad stone transplanter",
       "advancements.plank.title": "Plank",
-      "advancements.infinidirt.descr": "So much dirt I can rebuild the overworld (full inventory)",
       "block.skyage.holewithrootdirt": "Hole with root dirt",
-      "item.sky_ages.basicstonehammer": "Basic stone saw",
+      "item.sky_ages.basicstoneknife": "Basic stone knife",
+      "item.sky_ages.basicstonehammer": "Basic stone hammer",
+      "item.sky_ages.basicstoneblade": "Basicstoneblade",
       "block.sky_ages.crushedoaklogs": "Crushed oak log",
       "item.sky_ages.tinypebbles": "Tiny pebbles"
     }
@@ -973,6 +1120,10 @@
         "name": "Stage 1 - Roots",
         "children": [
           {
+            "name": "scripts",
+            "children": []
+          },
+          {
             "name": "Loot_tables",
             "children": []
           },
@@ -982,8 +1133,25 @@
               {
                 "name": "planks",
                 "children": []
+              },
+              {
+                "name": "Wooden_nails",
+                "children": [
+                  {
+                    "name": "wooden_nail_kits",
+                    "children": []
+                  }
+                ]
               }
             ]
+          },
+          {
+            "name": "Advancement",
+            "children": []
+          },
+          {
+            "name": "gui",
+            "children": []
           },
           {
             "name": "Blocks",
@@ -996,18 +1164,6 @@
           },
           {
             "name": "crafts",
-            "children": []
-          },
-          {
-            "name": "Advancement",
-            "children": []
-          },
-          {
-            "name": "scripts",
-            "children": []
-          },
-          {
-            "name": "gui",
             "children": []
           }
         ]

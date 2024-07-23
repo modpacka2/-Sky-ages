@@ -1,10 +1,10 @@
 {
   "parent": "sky_ages:custom/earthworm_box",
   "textures": {
-    "all": "sky_ages:block/oak_planks",
-    "particle": "sky_ages:block/oak_planks",
-    "0": "sky_ages:block/oak_planks",
-    "missing": "sky_ages:block/oak_planks"
+    "all": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/oak_planks",
+    "0": "minecraft:block/oak_planks",
+    "missing": "minecraft:block/oak_planks"
   },
   "render_type": "solid"
 }

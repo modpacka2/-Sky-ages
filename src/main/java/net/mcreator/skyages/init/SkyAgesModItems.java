@@ -16,10 +16,14 @@ import net.mcreator.skyages.item.TinypebblesItem;
 import net.mcreator.skyages.item.RootsItem;
 import net.mcreator.skyages.item.RootfilterItem;
 import net.mcreator.skyages.item.OakplankItem;
+import net.mcreator.skyages.item.OaknailskitItem;
+import net.mcreator.skyages.item.OaknailItem;
 import net.mcreator.skyages.item.EarthwormItem;
 import net.mcreator.skyages.item.BasicstonetransplanterItem;
 import net.mcreator.skyages.item.BasicstonesawItem;
+import net.mcreator.skyages.item.BasicstoneknifeItem;
 import net.mcreator.skyages.item.BasicstonehammerItem;
+import net.mcreator.skyages.item.BasicstonebladeItem;
 import net.mcreator.skyages.item.BadstonetransplanterItem;
 import net.mcreator.skyages.SkyAgesMod;
 
@@ -39,6 +43,10 @@ public class SkyAgesModItems {
 	public static final RegistryObject<Item> EARTHWORM = REGISTRY.register("earthworm", () -> new EarthwormItem());
 	public static final RegistryObject<Item> BASICSTONEHAMMER = REGISTRY.register("basicstonehammer", () -> new BasicstonehammerItem());
 	public static final RegistryObject<Item> CRUSHEDOAKLOGS = block(SkyAgesModBlocks.CRUSHEDOAKLOGS);
+	public static final RegistryObject<Item> BASICSTONEKNIFE = REGISTRY.register("basicstoneknife", () -> new BasicstoneknifeItem());
+	public static final RegistryObject<Item> BASICSTONEBLADE = REGISTRY.register("basicstoneblade", () -> new BasicstonebladeItem());
+	public static final RegistryObject<Item> OAKNAIL = REGISTRY.register("oaknail", () -> new OaknailItem());
+	public static final RegistryObject<Item> OAKNAILSKIT = REGISTRY.register("oaknailskit", () -> new OaknailskitItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

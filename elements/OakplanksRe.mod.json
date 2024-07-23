@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:hammer"
+      },
+      {
+        "value": "TAG:forge:saw"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:nails_kit"
+      },
+      {
+        "value": "CUSTOM:Oakplank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.PLANKS#0"
+    },
+    "name": "oak_planks",
+    "namespace": "minecraft"
+  }
+}

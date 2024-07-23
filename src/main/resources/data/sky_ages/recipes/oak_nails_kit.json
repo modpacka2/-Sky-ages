@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sky_ages:oaknail"
+    },
+    {
+      "item": "sky_ages:oaknail"
+    },
+    {
+      "item": "sky_ages:oaknail"
+    },
+    {
+      "item": "sky_ages:oaknail"
+    }
+  ],
+  "result": {
+    "item": "sky_ages:oaknailskit",
+    "count": 1
+  }
+}

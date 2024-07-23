@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Welcome (Read this)",
-    "achievementDescription": "This mod is like a modpack, so I recommand using JEI, REI or EMI for better view of the recipes. You will have access to the overworld later in the mod when you will finished all the main quests.",
+    "achievementDescription": "This mod is like a modpack, so I recommand using JEI, REI or EMI for better view of the recipes. You will have access to the overworld later in the mod when you will finished all the main quests. WARNING : The first stage is really (hard) and you can get stock and need to restart.",
     "achievementIcon": {
       "value": "Blocks.DIRT#1"
     },

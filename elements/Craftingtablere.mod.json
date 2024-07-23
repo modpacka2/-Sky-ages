@@ -15,19 +15,19 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "TAG:forge:saw"
+      },
+      {
+        "value": "TAG:minecraft:planks"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "TAG:forge:hammer"
       },
       {
-        "value": "Blocks.BEDROCK"
-      },
-      {
-        "value": ""
+        "value": "TAG:forge:knife"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.PLANKS#0"
+      "value": "Blocks.CRAFTING_TABLE"
     },
-    "name": "oak_planks",
+    "name": "crafting_table",
     "namespace": "minecraft"
   }
 }

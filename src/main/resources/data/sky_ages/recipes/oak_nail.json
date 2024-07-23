@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:knife"
+    },
+    {
+      "item": "sky_ages:oakplank"
+    }
+  ],
+  "result": {
+    "item": "sky_ages:oaknail",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sky_ages:tinypebbles"
+    },
+    {
+      "item": "sky_ages:tinypebbles"
+    },
+    {
+      "item": "sky_ages:tinypebbles"
+    }
+  ],
+  "result": {
+    "item": "sky_ages:basicstoneblade",
+    "count": 1
+  }
+}

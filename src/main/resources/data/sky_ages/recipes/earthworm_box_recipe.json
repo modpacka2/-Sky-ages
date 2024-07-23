@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "sky_ages:basicstonehammer"
+      "tag": "forge:hammer"
     },
     {
-      "item": "sky_ages:basicstonesaw"
+      "tag": "forge:saw"
     },
     {
       "item": "sky_ages:oakplank"

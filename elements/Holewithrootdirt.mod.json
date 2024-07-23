@@ -2,10 +2,10 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "dirt",
+    "texture": "minecraft:dirt",
     "textureTop": "hole_with_root_dirt",
-    "textureLeft": "dirt",
-    "textureFront": "dirt",
+    "textureLeft": "minecraft:dirt",
+    "textureFront": "minecraft:dirt",
     "textureRight": "dirt",
     "textureBack": "dirt",
     "renderType": 14,
@@ -44,6 +44,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Skyages"
+      },
+      {
+        "value": "CUSTOM:Transitionsblocks"
       }
     ],
     "destroyTool": "shovel",
@@ -58,7 +61,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "EARTH"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": true,

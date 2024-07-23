@@ -15,6 +15,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Skyages"
+      },
+      {
+        "value": "TOOLS"
       }
     ],
     "efficiency": 2.0,
