@@ -846,8 +846,8 @@
       "registry_name": "basicstoneknife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sky_ages/models/item/basicstoneknife.json",
-          "src/main/java/net/mcreator/skyages/item/BasicstoneknifeItem.java"
+          "src/main/java/net/mcreator/skyages/item/BasicstoneknifeItem.java",
+          "src/main/resources/assets/sky_ages/models/item/basicstoneknife.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Items"
@@ -900,8 +900,8 @@
       "registry_name": "oaknail",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sky_ages/models/item/oaknail.json",
-          "src/main/java/net/mcreator/skyages/item/OaknailItem.java"
+          "src/main/java/net/mcreator/skyages/item/OaknailItem.java",
+          "src/main/resources/assets/sky_ages/models/item/oaknail.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Items/Wooden_nails"
@@ -924,8 +924,8 @@
       "registry_name": "oaknailskit",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/item/OaknailskitItem.java",
-          "src/main/resources/assets/sky_ages/models/item/oaknailskit.json"
+          "src/main/resources/assets/sky_ages/models/item/oaknailskit.json",
+          "src/main/java/net/mcreator/skyages/item/OaknailskitItem.java"
         ]
       },
       "path": "~/Stage 1 - Roots/Items/Wooden_nails/wooden_nail_kits"
