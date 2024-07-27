@@ -94,7 +94,7 @@ public class EarthwormboxdirtBlockEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Earthworm box (dirt)");
+		return Component.literal("Earthworm box with dirt");
 	}
 
 	@Override
@@ -124,6 +124,16 @@ public class EarthwormboxdirtBlockEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction) {
+		if (index == 0)
+			return false;
+		if (index == 1)
+			return false;
+		if (index == 2)
+			return false;
+		if (index == 3)
+			return false;
+		if (index == 4)
+			return false;
 		return true;
 	}
 

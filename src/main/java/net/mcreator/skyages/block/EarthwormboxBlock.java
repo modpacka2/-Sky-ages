@@ -4,6 +4,7 @@ package net.mcreator.skyages.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -21,8 +22,8 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.skyages.procedures.AddDirttoearthwormboxProcedure;
 
-public class EarthwormBoxBlock extends Block {
-	public EarthwormBoxBlock() {
+public class EarthwormboxBlock extends Block {
+	public EarthwormboxBlock() {
 		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.WOOD).sound(SoundType.WOOD).strength(2f, 3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -43,7 +44,7 @@ public class EarthwormBoxBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.or(box(0, 0, 0, 16, 1, 16), box(0, 1, 0, 2, 5, 16), box(0, 1, 0, 16, 5, 2), box(14, 1, 0, 16, 5, 16), box(0, 1, 14, 16, 5, 16));
+		return Shapes.join(box(0, 0, 0, 16, 16, 16), box(2, 3, 2, 14, 16, 14), BooleanOp.ONLY_FIRST);
 	}
 
 	@Override

@@ -1,10 +1,9 @@
 {
-  "parent": "sky_ages:custom/earthworm_box_dirt",
+  "parent": "sky_ages:custom/earthworm_box",
   "textures": {
     "all": "sky_ages:block/oak_planks",
     "particle": "sky_ages:block/oak_planks",
     "0": "sky_ages:block/oak_planks",
-    "1": "sky_ages:block/dirt",
     "missing": "sky_ages:block/oak_planks"
   },
   "render_type": "solid"

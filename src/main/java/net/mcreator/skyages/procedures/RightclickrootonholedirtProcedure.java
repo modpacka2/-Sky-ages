@@ -20,7 +20,7 @@ public class RightclickrootonholedirtProcedure {
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == SkyAgesModBlocks.HOLEDIRT.get()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = SkyAgesModBlocks.HOLEWITHROOTDIRT.get().defaultBlockState();
+				BlockState _bs = SkyAgesModBlocks.HOLEWITHROOTSDIRT.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

@@ -33,13 +33,9 @@ public class SkyAgesModItems {
 	public static final RegistryObject<Item> ROOTFILTER = REGISTRY.register("rootfilter", () -> new RootfilterItem());
 	public static final RegistryObject<Item> TINYPEBBLES = REGISTRY.register("tinypebbles", () -> new TinypebblesItem());
 	public static final RegistryObject<Item> BADSTONETRANSPLANTER = REGISTRY.register("badstonetransplanter", () -> new BadstonetransplanterItem());
-	public static final RegistryObject<Item> HOLEDIRT = block(SkyAgesModBlocks.HOLEDIRT);
-	public static final RegistryObject<Item> HOLEWITHROOTDIRT = block(SkyAgesModBlocks.HOLEWITHROOTDIRT);
 	public static final RegistryObject<Item> BASICSTONETRANSPLANTER = REGISTRY.register("basicstonetransplanter", () -> new BasicstonetransplanterItem());
 	public static final RegistryObject<Item> BASICSTONESAW = REGISTRY.register("basicstonesaw", () -> new BasicstonesawItem());
 	public static final RegistryObject<Item> OAKPLANK = REGISTRY.register("oakplank", () -> new OakplankItem());
-	public static final RegistryObject<Item> EARTHWORM_BOX = block(SkyAgesModBlocks.EARTHWORM_BOX);
-	public static final RegistryObject<Item> EARTHWORMBOXDIRT = block(SkyAgesModBlocks.EARTHWORMBOXDIRT);
 	public static final RegistryObject<Item> EARTHWORM = REGISTRY.register("earthworm", () -> new EarthwormItem());
 	public static final RegistryObject<Item> BASICSTONEHAMMER = REGISTRY.register("basicstonehammer", () -> new BasicstonehammerItem());
 	public static final RegistryObject<Item> CRUSHEDOAKLOGS = block(SkyAgesModBlocks.CRUSHEDOAKLOGS);
@@ -47,6 +43,10 @@ public class SkyAgesModItems {
 	public static final RegistryObject<Item> BASICSTONEBLADE = REGISTRY.register("basicstoneblade", () -> new BasicstonebladeItem());
 	public static final RegistryObject<Item> OAKNAIL = REGISTRY.register("oaknail", () -> new OaknailItem());
 	public static final RegistryObject<Item> OAKNAILSKIT = REGISTRY.register("oaknailskit", () -> new OaknailskitItem());
+	public static final RegistryObject<Item> HOLEDIRT = block(SkyAgesModBlocks.HOLEDIRT);
+	public static final RegistryObject<Item> HOLEWITHROOTSDIRT = block(SkyAgesModBlocks.HOLEWITHROOTSDIRT);
+	public static final RegistryObject<Item> EARTHWORMBOX = block(SkyAgesModBlocks.EARTHWORMBOX);
+	public static final RegistryObject<Item> EARTHWORMBOXDIRT = block(SkyAgesModBlocks.EARTHWORMBOXDIRT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -2,14 +2,14 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:dirt",
-    "textureTop": "hole_with_root_dirt",
-    "textureLeft": "minecraft:dirt",
-    "textureFront": "minecraft:dirt",
-    "textureRight": "dirt",
-    "textureBack": "dirt",
-    "renderType": 14,
-    "customModelName": "Grass block",
+    "texture": "oak_planks",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "earthworm_box:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,10 +18,10 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
-    "disableOffset": false,
+    "transparencyType": "SOLID",
+    "disableOffset": true,
     "boundingBoxes": [
       {
         "mx": 0.0,
@@ -31,14 +31,23 @@
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 3.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 16.0,
+        "Mz": 14.0,
+        "subtract": true
       }
     ],
-    "name": "Hole with root dirt",
+    "name": "Earthwormbox",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.5,
-    "resistance": 0.5,
+    "hardness": 2.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -49,9 +58,9 @@
         "value": "CUSTOM:Transitionsblocks"
       }
     ],
-    "destroyTool": "shovel",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": "Blocks.DIRT#0"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,18 +68,18 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 0,
-    "tickRandomly": true,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "BROWN",
+    "colorOnMap": "WOOD",
     "creativePickItem": {
       "value": ""
     },
@@ -86,7 +95,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -124,8 +133,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "OnDirtrootTickUpdate"
+    "onRightClicked": {
+      "name": "AddDirttoearthwormbox"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

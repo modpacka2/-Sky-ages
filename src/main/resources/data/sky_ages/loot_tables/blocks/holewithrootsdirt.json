@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "sky_ages:blocks/holewithrootdirt",
+  "random_sequence": "sky_ages:blocks/holewithrootsdirt",
   "pools": [
     {
       "rolls": 1.0,

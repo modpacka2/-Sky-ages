@@ -24,8 +24,8 @@ public class SkyAgesModTabs {
 	public static final RegistryObject<CreativeModeTab> TRANSITIONSBLOCKS = REGISTRY.register("transitionsblocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sky_ages.transitionsblocks")).icon(() -> new ItemStack(SkyAgesModBlocks.CRUSHEDOAKLOGS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(SkyAgesModBlocks.HOLEDIRT.get().asItem());
-				tabData.accept(SkyAgesModBlocks.HOLEWITHROOTDIRT.get().asItem());
-				tabData.accept(SkyAgesModBlocks.EARTHWORM_BOX.get().asItem());
+				tabData.accept(SkyAgesModBlocks.HOLEWITHROOTSDIRT.get().asItem());
+				tabData.accept(SkyAgesModBlocks.EARTHWORMBOX.get().asItem());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> SKYAGES = REGISTRY.register("skyages",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sky_ages.skyages")).icon(() -> new ItemStack(SkyAgesModItems.ROOTS.get())).displayItems((parameters, tabData) -> {
@@ -33,19 +33,19 @@ public class SkyAgesModTabs {
 				tabData.accept(SkyAgesModItems.ROOTFILTER.get());
 				tabData.accept(SkyAgesModItems.TINYPEBBLES.get());
 				tabData.accept(SkyAgesModItems.BADSTONETRANSPLANTER.get());
-				tabData.accept(SkyAgesModBlocks.HOLEDIRT.get().asItem());
-				tabData.accept(SkyAgesModBlocks.HOLEWITHROOTDIRT.get().asItem());
 				tabData.accept(SkyAgesModItems.BASICSTONETRANSPLANTER.get());
 				tabData.accept(SkyAgesModItems.BASICSTONESAW.get());
 				tabData.accept(SkyAgesModItems.OAKPLANK.get());
-				tabData.accept(SkyAgesModBlocks.EARTHWORM_BOX.get().asItem());
-				tabData.accept(SkyAgesModBlocks.EARTHWORMBOXDIRT.get().asItem());
 				tabData.accept(SkyAgesModItems.EARTHWORM.get());
 				tabData.accept(SkyAgesModItems.BASICSTONEHAMMER.get());
 				tabData.accept(SkyAgesModBlocks.CRUSHEDOAKLOGS.get().asItem());
 				tabData.accept(SkyAgesModItems.BASICSTONEKNIFE.get());
 				tabData.accept(SkyAgesModItems.BASICSTONEBLADE.get());
 				tabData.accept(SkyAgesModItems.OAKNAIL.get());
+				tabData.accept(SkyAgesModBlocks.HOLEDIRT.get().asItem());
+				tabData.accept(SkyAgesModBlocks.HOLEWITHROOTSDIRT.get().asItem());
+				tabData.accept(SkyAgesModBlocks.EARTHWORMBOX.get().asItem());
+				tabData.accept(SkyAgesModBlocks.EARTHWORMBOXDIRT.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

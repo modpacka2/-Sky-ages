@@ -1,5 +1,5 @@
 {
-  "parent": "sky_ages:block/earthworm_box",
+  "parent": "sky_ages:block/holewithrootsdirt",
   "display": {
     "thirdperson": {
       "rotation": [

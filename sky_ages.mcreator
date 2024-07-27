@@ -212,8 +212,8 @@
       "registry_name": "badstonetransplanter",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/skyages/item/BadstonetransplanterItem.java",
-          "src/main/resources/assets/sky_ages/models/item/badstonetransplanter.json"
+          "src/main/resources/assets/sky_ages/models/item/badstonetransplanter.json",
+          "src/main/java/net/mcreator/skyages/item/BadstonetransplanterItem.java"
         ]
       },
       "path": "~/Stage 1 - Roots/Items"
@@ -230,23 +230,6 @@
         ]
       },
       "path": "~/Stage 1 - Roots/crafts"
-    },
-    {
-      "name": "Holedirt",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "holedirt",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/skyages/block/HoledirtBlock.java",
-          "src/main/resources/assets/sky_ages/blockstates/holedirt.json",
-          "src/main/resources/assets/sky_ages/models/item/holedirt.json",
-          "src/main/resources/data/sky_ages/loot_tables/blocks/holedirt.json",
-          "src/main/resources/assets/sky_ages/models/block/holedirt.json"
-        ]
-      },
-      "path": "~/Stage 1 - Roots/Blocks"
     },
     {
       "name": "WhenRightClickTransplanter",
@@ -282,23 +265,6 @@
         ]
       },
       "path": "~/Stage 1 - Roots/scripts"
-    },
-    {
-      "name": "Holewithrootdirt",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "holewithrootdirt",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/sky_ages/models/item/holewithrootdirt.json",
-          "src/main/resources/assets/sky_ages/models/block/holewithrootdirt.json",
-          "src/main/java/net/mcreator/skyages/block/HolewithrootdirtBlock.java",
-          "src/main/resources/data/sky_ages/loot_tables/blocks/holewithrootdirt.json",
-          "src/main/resources/assets/sky_ages/blockstates/holewithrootdirt.json"
-        ]
-      },
-      "path": "~/Stage 1 - Roots/Blocks"
     },
     {
       "name": "Rightclickrootonholedirt",
@@ -519,43 +485,9 @@
       "path": "~/Spawn_area"
     },
     {
-      "name": "EarthwormBox",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "earthworm_box",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/sky_ages/blockstates/earthworm_box.json",
-          "src/main/java/net/mcreator/skyages/block/EarthwormBoxBlock.java",
-          "src/main/resources/assets/sky_ages/models/item/earthworm_box.json",
-          "src/main/resources/assets/sky_ages/models/block/earthworm_box.json",
-          "src/main/resources/data/sky_ages/loot_tables/blocks/earthworm_box.json"
-        ]
-      },
-      "path": "~/Stage 1 - Roots/Blocks"
-    },
-    {
-      "name": "Earthwormboxdirt",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "earthwormboxdirt",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/sky_ages/models/item/earthwormboxdirt.json",
-          "src/main/java/net/mcreator/skyages/block/entity/EarthwormboxdirtBlockEntity.java",
-          "src/main/java/net/mcreator/skyages/block/EarthwormboxdirtBlock.java",
-          "src/main/resources/assets/sky_ages/blockstates/earthwormboxdirt.json",
-          "src/main/resources/assets/sky_ages/models/block/earthwormboxdirt.json"
-        ]
-      },
-      "path": "~/Stage 1 - Roots/Blocks"
-    },
-    {
       "name": "AddDirttoearthwormbox",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "add_dirttoearthwormbox",
       "metadata": {
@@ -981,6 +913,74 @@
         ]
       },
       "path": "~/Stage 1 - Roots/crafts"
+    },
+    {
+      "name": "Holedirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holedirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sky_ages/models/item/holedirt.json",
+          "src/main/java/net/mcreator/skyages/block/HoledirtBlock.java",
+          "src/main/resources/data/sky_ages/loot_tables/blocks/holedirt.json",
+          "src/main/resources/assets/sky_ages/models/block/holedirt.json",
+          "src/main/resources/assets/sky_ages/blockstates/holedirt.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Blocks"
+    },
+    {
+      "name": "Holewithrootsdirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holewithrootsdirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/skyages/block/HolewithrootsdirtBlock.java",
+          "src/main/resources/assets/sky_ages/blockstates/holewithrootsdirt.json",
+          "src/main/resources/data/sky_ages/loot_tables/blocks/holewithrootsdirt.json",
+          "src/main/resources/assets/sky_ages/models/block/holewithrootsdirt.json",
+          "src/main/resources/assets/sky_ages/models/item/holewithrootsdirt.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Blocks"
+    },
+    {
+      "name": "Earthwormbox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthwormbox",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sky_ages/loot_tables/blocks/earthwormbox.json",
+          "src/main/resources/assets/sky_ages/blockstates/earthwormbox.json",
+          "src/main/java/net/mcreator/skyages/block/EarthwormboxBlock.java",
+          "src/main/resources/assets/sky_ages/models/block/earthwormbox.json",
+          "src/main/resources/assets/sky_ages/models/item/earthwormbox.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Blocks"
+    },
+    {
+      "name": "Earthwormboxdirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthwormboxdirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sky_ages/blockstates/earthwormboxdirt.json",
+          "src/main/resources/assets/sky_ages/models/item/earthwormboxdirt.json",
+          "src/main/resources/assets/sky_ages/models/block/earthwormboxdirt.json",
+          "src/main/java/net/mcreator/skyages/block/EarthwormboxdirtBlock.java",
+          "src/main/java/net/mcreator/skyages/block/entity/EarthwormboxdirtBlockEntity.java"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Blocks"
     }
   ],
   "variable_elements": [
@@ -1042,11 +1042,9 @@
       "~Blocks.AIR"
     ],
     "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:Earthwormboxdirt",
-      "~CUSTOM:EarthwormBox"
+      "~CUSTOM:Earthwormbox"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
-      "~CUSTOM:Holewithrootdirt",
       "~CUSTOM:Holedirt"
     ],
     "ITEMS:forge:filter": [
@@ -1068,15 +1066,16 @@
       "advancements.plank.descr": "Get a plank using a saw",
       "biome.skyage.antibiome": "Antibiome",
       "item_group.sky_ages.skyages": "Sky ages",
-      "block.sky_ages.earthwormboxdirt": "Earthworm box (dirt)",
+      "block.sky_ages.earthwormbox": "Earthwormbox",
+      "block.sky_ages.earthwormboxdirt": "Earthworm box with dirt",
       "item_group.skyage.skyages": "Sky ages",
       "item.sky_ages.basicstonesaw": "Basic stone saw",
       "item.sky_ages.oakplank": "Oak plank",
       "advancements.anewadvanture.descr": "Get some roots at the bottom of your island",
       "advancements.anewadvanture.title": "A new adventure",
       "item.sky_ages.roots": "Root",
-      "block.sky_ages.earthworm_box": "Earthworm box",
       "gui.sky_ages.earthworm_gui.label_earthworm_box": "Earthworm box",
+      "block.sky_ages.holewithrootsdirt": "Hole with roots dirt",
       "advancements.welcome.title": "Welcome (Read this)",
       "item.skyage.tinypebbles": "Tiny pebbles",
       "advancements.dirtfarm.descr": "Get a worm and a worm box",
@@ -1087,14 +1086,13 @@
       "item.skyage.roots": "Root",
       "item.sky_ages.badstonetransplanter": "Bad stone transplanter",
       "advancements.transplanter.title": "Transplanter",
-      "block.sky_ages.holewithrootdirt": "Hole with root dirt",
       "item_group.sky_ages.transitionsblocks": "Transitions blocks",
       "block.skyage.holedirt": "Hole dirt",
       "item.skyage.rootfilter": "Root filter",
       "item.sky_ages.oaknail": "Oak nail",
       "item.sky_ages.rootfilter": "Root filter",
-      "block.sky_ages.holedirt": "Hole dirt",
       "advancements.dirtfarm.title": "Dirt farm",
+      "block.sky_ages.holedirt": "Hole dirt",
       "advancements.welcome.descr": "This mod is like a modpack, so I recommand using JEI, REI or EMI for better view of the recipes. You will have access to the overworld later in the mod when you will finished all the main quests. WARNING : The first stage is really (hard) and you can get stock and need to restart.",
       "biome.sky_ages.antibiome": "Antibiome",
       "advancements.dirtsacrifice.title": "Dirt sacrifice",

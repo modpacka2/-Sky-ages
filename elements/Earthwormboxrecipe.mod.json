@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EarthwormBox"
+      "value": "CUSTOM:Earthwormbox"
     },
     "name": "earthworm_box_recipe",
     "namespace": "mod"

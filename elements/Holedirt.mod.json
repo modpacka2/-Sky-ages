@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:dirt",
+    "texture": "dirt",
     "textureTop": "hole_dirt",
-    "textureLeft": "minecraft:dirt",
-    "textureFront": "minecraft:dirt",
-    "textureRight": "dirt",
-    "textureBack": "dirt",
+    "textureLeft": "dirt",
+    "textureFront": "dirt",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 14,
     "customModelName": "Grass block",
     "rotationMode": 0,
@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
@@ -59,7 +59,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
@@ -70,7 +70,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "BROWN",
+    "colorOnMap": "DIRT",
     "creativePickItem": {
       "value": ""
     },
@@ -124,6 +124,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Rightclickrootonholedirt"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

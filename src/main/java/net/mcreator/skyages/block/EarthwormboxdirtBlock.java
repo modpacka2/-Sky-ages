@@ -6,6 +6,7 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -59,7 +60,7 @@ public class EarthwormboxdirtBlock extends Block implements EntityBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.or(box(0, 0, 0, 16, 3, 16), box(0, 1, 0, 2, 5, 16), box(0, 1, 0, 16, 5, 2), box(14, 1, 0, 16, 5, 16), box(0, 1, 14, 16, 5, 16));
+		return Shapes.join(box(0, 0, 0, 16, 16, 16), box(2, 3, 2, 14, 16, 14), BooleanOp.ONLY_FIRST);
 	}
 
 	@Override
@@ -78,7 +79,7 @@ public class EarthwormboxdirtBlock extends Block implements EntityBlock {
 			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Earthworm box (dirt)");
+					return Component.literal("Earthworm box with dirt");
 				}
 
 				@Override
