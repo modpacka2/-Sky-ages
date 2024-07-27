@@ -487,7 +487,7 @@
     {
       "name": "AddDirttoearthwormbox",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "add_dirttoearthwormbox",
       "metadata": {
@@ -652,11 +652,11 @@
       "registry_name": "crushedoaklogs",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/skyages/block/CrushedoaklogsBlock.java",
           "src/main/resources/assets/sky_ages/models/block/crushedoaklogs.json",
-          "src/main/resources/assets/sky_ages/blockstates/crushedoaklogs.json",
-          "src/main/resources/data/sky_ages/loot_tables/blocks/crushedoaklogs.json",
           "src/main/resources/assets/sky_ages/models/item/crushedoaklogs.json",
-          "src/main/java/net/mcreator/skyages/block/CrushedoaklogsBlock.java"
+          "src/main/resources/assets/sky_ages/blockstates/crushedoaklogs.json",
+          "src/main/resources/data/sky_ages/loot_tables/blocks/crushedoaklogs.json"
         ]
       },
       "path": "~/Stage 1 - Roots/Blocks/crushed_log"
@@ -981,6 +981,78 @@
         ]
       },
       "path": "~/Stage 1 - Roots/Blocks"
+    },
+    {
+      "name": "Goaldirt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goaldirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/skyages/procedures/GoaldirtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Stage 1 - Roots/scripts"
+    },
+    {
+      "name": "Dirtking",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sky_ages/advancements/dirtking.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Advancement"
+    },
+    {
+      "name": "Goalwormbox",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goalwormbox",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/skyages/procedures/GoalwormboxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Stage 1 - Roots/scripts"
+    },
+    {
+      "name": "NowIcancook",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "now_icancook",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sky_ages/advancements/now_icancook.json"
+        ]
+      },
+      "path": "~/Stage 1 - Roots/Advancement"
     }
   ],
   "variable_elements": [
@@ -1068,6 +1140,7 @@
       "item_group.sky_ages.skyages": "Sky ages",
       "block.sky_ages.earthwormbox": "Earthwormbox",
       "block.sky_ages.earthwormboxdirt": "Earthworm box with dirt",
+      "advancements.now_icancook.title": "Now I can cook",
       "item_group.skyage.skyages": "Sky ages",
       "item.sky_ages.basicstonesaw": "Basic stone saw",
       "item.sky_ages.oakplank": "Oak plank",
@@ -1078,7 +1151,7 @@
       "block.sky_ages.holewithrootsdirt": "Hole with roots dirt",
       "advancements.welcome.title": "Welcome (Read this)",
       "item.skyage.tinypebbles": "Tiny pebbles",
-      "advancements.dirtfarm.descr": "Get a worm and a worm box",
+      "advancements.dirtfarm.descr": "Get two worms and a worm box",
       "advancements.dirtsacrifice.descr": "Sacrifice some dirt to obtain pebbles (ps : you need a filter)",
       "advancements.transplanter.descr": "Get a transplanter the new best tool to make tree grow. (ps : sapling didn\u0027t work in this mod)",
       "item.sky_ages.basicstonetransplanter": "Basic stone transplanter",
@@ -1096,9 +1169,12 @@
       "advancements.welcome.descr": "This mod is like a modpack, so I recommand using JEI, REI or EMI for better view of the recipes. You will have access to the overworld later in the mod when you will finished all the main quests. WARNING : The first stage is really (hard) and you can get stock and need to restart.",
       "biome.sky_ages.antibiome": "Antibiome",
       "advancements.dirtsacrifice.title": "Dirt sacrifice",
+      "advancements.dirtking.title": "Dirt king",
+      "advancements.dirtking.descr": "Get too much dirt in your inventory (1728 minimum)",
       "item.sky_ages.earthworm": "Earthworm",
       "item.skyage.badstonetransplanter": "Bad stone transplanter",
       "advancements.plank.title": "Plank",
+      "advancements.now_icancook.descr": "Get a crafting table",
       "block.skyage.holewithrootdirt": "Hole with root dirt",
       "item.sky_ages.basicstoneknife": "Basic stone knife",
       "item.sky_ages.basicstonehammer": "Basic stone hammer",
@@ -1165,6 +1241,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "global_Script",
+        "children": []
       }
     ]
   },

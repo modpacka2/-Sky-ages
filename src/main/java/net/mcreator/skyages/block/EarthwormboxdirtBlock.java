@@ -60,7 +60,7 @@ public class EarthwormboxdirtBlock extends Block implements EntityBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.join(box(0, 0, 0, 16, 16, 16), box(2, 3, 2, 14, 16, 14), BooleanOp.ONLY_FIRST);
+		return Shapes.join(box(0, 0, 0, 16, 5, 16), box(2, 3, 2, 14, 16, 14), BooleanOp.ONLY_FIRST);
 	}
 
 	@Override

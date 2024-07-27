@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "sky_ages:earthworm"
+      "item": "minecraft:dirt"
     },
     "title": {
-      "translate": "advancements.dirtfarm.title"
+      "translate": "advancements.dirtking.title"
     },
     "description": {
-      "translate": "advancements.dirtfarm.descr"
+      "translate": "advancements.dirtking.descr"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "dirtfarm_0": {
+    "dirtking_0": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "sky_ages:plank"
+  "parent": "sky_ages:dirtfarm"
 }
